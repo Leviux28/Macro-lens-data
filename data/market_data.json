@@ -1,4 +1,1990 @@
 {
-  "generated_at": null,
-  "note": "尚未執行過 Action，這是 placeholder。手動觸發一次 workflow 後這裡會被覆蓋成實際數據。"
+  "generated_at": "2026-07-22T13:28:29.607316Z",
+  "taiex": {
+    "ohlc": [
+      {
+        "date": "2026-01-23",
+        "open": 31788.77,
+        "high": 32042.44,
+        "low": 31693.15,
+        "close": 31961.51,
+        "volume": 12103342453.0
+      },
+      {
+        "date": "2026-01-26",
+        "open": 32002.56,
+        "high": 32196.75,
+        "low": 31989.86,
+        "close": 32064.52,
+        "volume": 11574650763.0
+      },
+      {
+        "date": "2026-01-27",
+        "open": 32095.08,
+        "high": 32428.17,
+        "low": 32095.08,
+        "close": 32317.92,
+        "volume": 12767369519.0
+      },
+      {
+        "date": "2026-01-28",
+        "open": 32381.76,
+        "high": 32803.82,
+        "low": 32381.76,
+        "close": 32803.82,
+        "volume": 12947973323.0
+      },
+      {
+        "date": "2026-01-29",
+        "open": 32828.02,
+        "high": 32996.03,
+        "low": 32472.45,
+        "close": 32536.27,
+        "volume": 13552952931.0
+      },
+      {
+        "date": "2026-01-30",
+        "open": 32555.52,
+        "high": 32555.52,
+        "low": 32004.96,
+        "close": 32063.75,
+        "volume": 13417799586.0
+      },
+      {
+        "date": "2026-02-02",
+        "open": 32008.46,
+        "high": 32008.46,
+        "low": 31359.95,
+        "close": 31624.03,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-03",
+        "open": 31737.66,
+        "high": 32293.83,
+        "low": 31737.66,
+        "close": 32195.36,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-04",
+        "open": 32196.57,
+        "high": 32380.0,
+        "low": 31942.28,
+        "close": 32289.81,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-05",
+        "open": 32241.64,
+        "high": 32241.64,
+        "low": 31769.08,
+        "close": 31801.27,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-06",
+        "open": 31746.44,
+        "high": 31842.62,
+        "low": 31164.28,
+        "close": 31782.92,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-09",
+        "open": 31956.21,
+        "high": 32666.05,
+        "low": 31956.21,
+        "close": 32404.62,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-10",
+        "open": 32439.71,
+        "high": 33072.97,
+        "low": 32439.71,
+        "close": 33072.97,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-11",
+        "open": 33086.15,
+        "high": 33707.83,
+        "low": 33071.67,
+        "close": 33605.71,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-23",
+        "open": 33663.02,
+        "high": 34212.38,
+        "low": 33663.02,
+        "close": 33773.26,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-24",
+        "open": 34020.71,
+        "high": 34786.42,
+        "low": 33987.51,
+        "close": 34700.82,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-25",
+        "open": 34753.31,
+        "high": 35521.54,
+        "low": 34753.31,
+        "close": 35413.07,
+        "volume": 0
+      },
+      {
+        "date": "2026-02-26",
+        "open": 35457.76,
+        "high": 35579.34,
+        "low": 35171.52,
+        "close": 35414.49,
+        "volume": 0
+      },
+      {
+        "date": "2026-03-02",
+        "open": 35277.48,
+        "high": 35345.72,
+        "low": 34605.36,
+        "close": 35095.09,
+        "volume": 14965963786.0
+      },
+      {
+        "date": "2026-03-03",
+        "open": 35106.22,
+        "high": 35264.59,
+        "low": 34323.65,
+        "close": 34323.65,
+        "volume": 16527604581.0
+      },
+      {
+        "date": "2026-03-04",
+        "open": 34228.75,
+        "high": 34228.75,
+        "low": 32828.88,
+        "close": 32828.88,
+        "volume": 17027132902.0
+      },
+      {
+        "date": "2026-03-05",
+        "open": 33620.74,
+        "high": 34319.68,
+        "low": 33472.91,
+        "close": 33672.94,
+        "volume": 11784121914.0
+      },
+      {
+        "date": "2026-03-06",
+        "open": 33483.94,
+        "high": 33829.49,
+        "low": 33322.52,
+        "close": 33599.54,
+        "volume": 10206581156.0
+      },
+      {
+        "date": "2026-03-09",
+        "open": 32354.61,
+        "high": 32354.61,
+        "low": 31529.36,
+        "close": 32110.42,
+        "volume": 14457276951.0
+      },
+      {
+        "date": "2026-03-10",
+        "open": 32692.37,
+        "high": 33256.69,
+        "low": 32455.2,
+        "close": 32771.87,
+        "volume": 11467681132.0
+      },
+      {
+        "date": "2026-03-11",
+        "open": 33128.49,
+        "high": 34218.66,
+        "low": 33128.49,
+        "close": 34114.19,
+        "volume": 10994809421.0
+      },
+      {
+        "date": "2026-03-12",
+        "open": 33816.15,
+        "high": 34019.48,
+        "low": 33458.64,
+        "close": 33581.86,
+        "volume": 12188897294.0
+      },
+      {
+        "date": "2026-03-13",
+        "open": 33215.78,
+        "high": 33639.18,
+        "low": 33013.46,
+        "close": 33400.32,
+        "volume": 11310370787.0
+      },
+      {
+        "date": "2026-03-16",
+        "open": 33541.25,
+        "high": 33765.81,
+        "low": 33278.06,
+        "close": 33342.51,
+        "volume": 11002126725.0
+      },
+      {
+        "date": "2026-03-17",
+        "open": 33380.84,
+        "high": 34008.7,
+        "low": 33380.84,
+        "close": 33836.57,
+        "volume": 11052069276.0
+      },
+      {
+        "date": "2026-03-18",
+        "open": 33929.28,
+        "high": 34423.66,
+        "low": 33929.28,
+        "close": 34348.58,
+        "volume": 11967644458.0
+      },
+      {
+        "date": "2026-03-19",
+        "open": 34279.12,
+        "high": 34279.12,
+        "low": 33663.78,
+        "close": 33689.68,
+        "volume": 11805573077.0
+      },
+      {
+        "date": "2026-03-20",
+        "open": 33719.85,
+        "high": 33989.18,
+        "low": 33379.24,
+        "close": 33543.88,
+        "volume": 12643136708.0
+      },
+      {
+        "date": "2026-03-23",
+        "open": 33334.0,
+        "high": 33334.0,
+        "low": 32461.09,
+        "close": 32722.5,
+        "volume": 11584224639.0
+      },
+      {
+        "date": "2026-03-24",
+        "open": 33062.89,
+        "high": 33361.46,
+        "low": 32434.54,
+        "close": 32612.24,
+        "volume": 9933946735.0
+      },
+      {
+        "date": "2026-03-25",
+        "open": 32725.27,
+        "high": 33705.75,
+        "low": 32725.27,
+        "close": 33439.11,
+        "volume": 8730340717.0
+      },
+      {
+        "date": "2026-03-26",
+        "open": 33575.6,
+        "high": 33892.56,
+        "low": 33337.62,
+        "close": 33337.62,
+        "volume": 9461269146.0
+      },
+      {
+        "date": "2026-03-27",
+        "open": 33267.25,
+        "high": 33267.25,
+        "low": 32669.39,
+        "close": 33112.59,
+        "volume": 9442000840.0
+      },
+      {
+        "date": "2026-03-30",
+        "open": 33009.68,
+        "high": 33009.68,
+        "low": 32326.37,
+        "close": 32518.16,
+        "volume": 9871214148.0
+      },
+      {
+        "date": "2026-03-31",
+        "open": 32419.0,
+        "high": 32453.38,
+        "low": 31705.99,
+        "close": 31722.99,
+        "volume": 12232062739.0
+      },
+      {
+        "date": "2026-04-01",
+        "open": 31892.33,
+        "high": 33182.22,
+        "low": 31892.33,
+        "close": 33174.82,
+        "volume": 9341757628.0
+      },
+      {
+        "date": "2026-04-02",
+        "open": 33218.02,
+        "high": 33497.58,
+        "low": 32516.94,
+        "close": 32572.43,
+        "volume": 10200475573.0
+      },
+      {
+        "date": "2026-04-07",
+        "open": 32671.52,
+        "high": 33264.22,
+        "low": 32671.52,
+        "close": 33229.82,
+        "volume": 8303716897.0
+      },
+      {
+        "date": "2026-04-08",
+        "open": 33379.5,
+        "high": 34761.38,
+        "low": 33379.5,
+        "close": 34761.38,
+        "volume": 12873431242.0
+      },
+      {
+        "date": "2026-04-09",
+        "open": 34779.96,
+        "high": 34884.45,
+        "low": 34617.34,
+        "close": 34861.16,
+        "volume": 11946350818.0
+      },
+      {
+        "date": "2026-04-10",
+        "open": 34950.87,
+        "high": 35417.83,
+        "low": 34950.87,
+        "close": 35417.83,
+        "volume": 12583637569.0
+      },
+      {
+        "date": "2026-04-13",
+        "open": 35422.91,
+        "high": 35552.49,
+        "low": 35261.73,
+        "close": 35457.29,
+        "volume": 10803404429.0
+      },
+      {
+        "date": "2026-04-14",
+        "open": 35584.09,
+        "high": 36341.44,
+        "low": 35584.09,
+        "close": 36296.12,
+        "volume": 13673749935.0
+      },
+      {
+        "date": "2026-04-15",
+        "open": 36369.11,
+        "high": 37064.16,
+        "low": 36369.11,
+        "close": 36722.14,
+        "volume": 13942183786.0
+      },
+      {
+        "date": "2026-04-16",
+        "open": 36759.53,
+        "high": 37135.55,
+        "low": 36751.09,
+        "close": 37132.02,
+        "volume": 13029813066.0
+      },
+      {
+        "date": "2026-04-17",
+        "open": 37145.66,
+        "high": 37145.66,
+        "low": 36776.28,
+        "close": 36804.34,
+        "volume": 13629149036.0
+      },
+      {
+        "date": "2026-04-20",
+        "open": 36850.24,
+        "high": 37344.5,
+        "low": 36850.24,
+        "close": 36958.8,
+        "volume": 13563808775.0
+      },
+      {
+        "date": "2026-04-21",
+        "open": 37051.25,
+        "high": 37781.83,
+        "low": 37051.25,
+        "close": 37605.11,
+        "volume": 13267924991.0
+      },
+      {
+        "date": "2026-04-22",
+        "open": 37627.2,
+        "high": 38096.88,
+        "low": 37623.38,
+        "close": 37878.47,
+        "volume": 13042520832.0
+      },
+      {
+        "date": "2026-04-23",
+        "open": 37971.69,
+        "high": 38921.95,
+        "low": 37164.44,
+        "close": 37714.15,
+        "volume": 18953441032.0
+      },
+      {
+        "date": "2026-04-24",
+        "open": 37862.65,
+        "high": 38989.94,
+        "low": 37862.65,
+        "close": 38932.4,
+        "volume": 12886151833.0
+      },
+      {
+        "date": "2026-04-27",
+        "open": 39858.19,
+        "high": 40194.92,
+        "low": 39607.74,
+        "close": 39616.63,
+        "volume": 14212315987.0
+      },
+      {
+        "date": "2026-04-28",
+        "open": 39531.93,
+        "high": 40101.23,
+        "low": 39521.73,
+        "close": 39521.73,
+        "volume": 10641033425.0
+      },
+      {
+        "date": "2026-04-29",
+        "open": 39176.24,
+        "high": 39548.18,
+        "low": 38896.3,
+        "close": 39303.5,
+        "volume": 10197192638.0
+      },
+      {
+        "date": "2026-04-30",
+        "open": 39571.46,
+        "high": 39848.22,
+        "low": 38926.63,
+        "close": 38926.63,
+        "volume": 11446952929.0
+      },
+      {
+        "date": "2026-05-04",
+        "open": 39228.39,
+        "high": 40755.52,
+        "low": 39228.39,
+        "close": 40705.14,
+        "volume": 12395796663.0
+      },
+      {
+        "date": "2026-05-05",
+        "open": 40708.4,
+        "high": 40885.05,
+        "low": 40522.78,
+        "close": 40769.29,
+        "volume": 12853494887.0
+      },
+      {
+        "date": "2026-05-06",
+        "open": 40983.04,
+        "high": 41575.84,
+        "low": 40616.28,
+        "close": 41138.85,
+        "volume": 16678201403.0
+      },
+      {
+        "date": "2026-05-07",
+        "open": 41259.96,
+        "high": 42156.06,
+        "low": 41259.96,
+        "close": 41933.78,
+        "volume": 15231110299.0
+      },
+      {
+        "date": "2026-05-08",
+        "open": 41886.03,
+        "high": 42038.6,
+        "low": 41132.25,
+        "close": 41603.94,
+        "volume": 15497124214.0
+      },
+      {
+        "date": "2026-05-11",
+        "open": 41714.0,
+        "high": 42021.78,
+        "low": 41529.25,
+        "close": 41790.06,
+        "volume": 13141091504.0
+      },
+      {
+        "date": "2026-05-12",
+        "open": 41880.66,
+        "high": 42253.42,
+        "low": 41471.57,
+        "close": 41898.32,
+        "volume": 19487297206.0
+      },
+      {
+        "date": "2026-05-13",
+        "open": 41795.92,
+        "high": 41795.92,
+        "low": 41014.53,
+        "close": 41374.5,
+        "volume": 18632210693.0
+      },
+      {
+        "date": "2026-05-14",
+        "open": 41496.23,
+        "high": 42205.62,
+        "low": 41496.23,
+        "close": 41751.75,
+        "volume": 14422244219.0
+      },
+      {
+        "date": "2026-05-15",
+        "open": 41830.42,
+        "high": 42408.66,
+        "low": 41016.73,
+        "close": 41172.36,
+        "volume": 17355987461.0
+      },
+      {
+        "date": "2026-05-18",
+        "open": 41095.82,
+        "high": 41095.82,
+        "low": 40170.17,
+        "close": 40891.82,
+        "volume": 13753749982.0
+      },
+      {
+        "date": "2026-05-19",
+        "open": 40883.42,
+        "high": 40951.56,
+        "low": 40168.51,
+        "close": 40175.56,
+        "volume": 13603142233.0
+      },
+      {
+        "date": "2026-05-20",
+        "open": 40204.16,
+        "high": 40439.04,
+        "low": 39967.08,
+        "close": 40020.82,
+        "volume": 11825319302.0
+      },
+      {
+        "date": "2026-05-21",
+        "open": 40263.18,
+        "high": 41606.91,
+        "low": 40263.18,
+        "close": 41368.21,
+        "volume": 12662318814.0
+      },
+      {
+        "date": "2026-05-22",
+        "open": 41447.92,
+        "high": 42357.6,
+        "low": 41447.92,
+        "close": 42267.97,
+        "volume": 14518650616.0
+      },
+      {
+        "date": "2026-05-25",
+        "open": 42667.87,
+        "high": 43645.78,
+        "low": 42667.87,
+        "close": 43644.4,
+        "volume": 16726165336.0
+      },
+      {
+        "date": "2026-05-26",
+        "open": 43708.89,
+        "high": 44097.63,
+        "low": 43349.77,
+        "close": 43525.37,
+        "volume": 17964690191.0
+      },
+      {
+        "date": "2026-05-27",
+        "open": 43842.26,
+        "high": 44818.25,
+        "low": 43842.26,
+        "close": 44256.8,
+        "volume": 18565348678.0
+      },
+      {
+        "date": "2026-05-28",
+        "open": 44240.8,
+        "high": 44954.09,
+        "low": 43236.36,
+        "close": 43636.44,
+        "volume": 19686100251.0
+      },
+      {
+        "date": "2026-05-29",
+        "open": 43815.48,
+        "high": 44933.95,
+        "low": 43815.48,
+        "close": 44732.94,
+        "volume": 19561019045.0
+      },
+      {
+        "date": "2026-06-01",
+        "open": 44872.82,
+        "high": 45931.1,
+        "low": 44872.82,
+        "close": 45337.91,
+        "volume": 17539429740.0
+      },
+      {
+        "date": "2026-06-02",
+        "open": 45388.93,
+        "high": 45915.92,
+        "low": 44869.38,
+        "close": 45557.31,
+        "volume": 19264949123.0
+      },
+      {
+        "date": "2026-06-03",
+        "open": 45660.46,
+        "high": 46552.16,
+        "low": 45660.46,
+        "close": 46459.16,
+        "volume": 18516900056.0
+      },
+      {
+        "date": "2026-06-04",
+        "open": 46364.07,
+        "high": 46364.07,
+        "low": 45677.46,
+        "close": 45677.46,
+        "volume": 16812445952.0
+      },
+      {
+        "date": "2026-06-05",
+        "open": 45619.82,
+        "high": 45619.82,
+        "low": 44209.53,
+        "close": 45070.94,
+        "volume": 16019783711.0
+      },
+      {
+        "date": "2026-06-08",
+        "open": 44507.49,
+        "high": 44507.49,
+        "low": 42376.86,
+        "close": 43502.78,
+        "volume": 14641525700.0
+      },
+      {
+        "date": "2026-06-09",
+        "open": 43687.62,
+        "high": 44821.71,
+        "low": 43687.62,
+        "close": 44704.44,
+        "volume": 14106451926.0
+      },
+      {
+        "date": "2026-06-10",
+        "open": 44581.45,
+        "high": 44676.49,
+        "low": 43225.54,
+        "close": 43225.54,
+        "volume": 15773244263.0
+      },
+      {
+        "date": "2026-06-11",
+        "open": 43172.21,
+        "high": 43463.03,
+        "low": 42006.39,
+        "close": 43149.46,
+        "volume": 14433302867.0
+      },
+      {
+        "date": "2026-06-12",
+        "open": 43587.63,
+        "high": 44798.88,
+        "low": 43587.63,
+        "close": 44169.04,
+        "volume": 12336471343.0
+      },
+      {
+        "date": "2026-06-15",
+        "open": 44447.87,
+        "high": 45483.63,
+        "low": 44447.87,
+        "close": 45396.99,
+        "volume": 12695045659.0
+      },
+      {
+        "date": "2026-06-16",
+        "open": 45500.08,
+        "high": 45809.19,
+        "low": 45266.34,
+        "close": 45809.19,
+        "volume": 12388176269.0
+      },
+      {
+        "date": "2026-06-17",
+        "open": 45685.27,
+        "high": 45877.39,
+        "low": 45159.51,
+        "close": 45877.39,
+        "volume": 12227191968.0
+      },
+      {
+        "date": "2026-06-18",
+        "open": 45972.26,
+        "high": 46565.7,
+        "low": 45972.26,
+        "close": 46465.2,
+        "volume": 16336544104.0
+      },
+      {
+        "date": "2026-06-22",
+        "open": 46679.57,
+        "high": 47871.19,
+        "low": 46679.57,
+        "close": 47741.51,
+        "volume": 15727229822.0
+      },
+      {
+        "date": "2026-06-23",
+        "open": 47795.09,
+        "high": 48218.87,
+        "low": 47100.65,
+        "close": 47100.65,
+        "volume": 16666417405.0
+      },
+      {
+        "date": "2026-06-24",
+        "open": 46909.98,
+        "high": 46909.98,
+        "low": 45819.71,
+        "close": 46043.6,
+        "volume": 16786237802.0
+      },
+      {
+        "date": "2026-06-25",
+        "open": 46339.68,
+        "high": 46785.45,
+        "low": 46048.7,
+        "close": 46255.26,
+        "volume": 13456150105.0
+      },
+      {
+        "date": "2026-06-26",
+        "open": 46188.6,
+        "high": 46188.6,
+        "low": 44454.22,
+        "close": 44571.76,
+        "volume": 16709688079.0
+      },
+      {
+        "date": "2026-06-29",
+        "open": 44594.81,
+        "high": 45521.63,
+        "low": 44594.81,
+        "close": 44999.9,
+        "volume": 11210546174.0
+      },
+      {
+        "date": "2026-06-30",
+        "open": 45165.8,
+        "high": 46637.86,
+        "low": 45165.8,
+        "close": 46125.91,
+        "volume": 13140347237.0
+      },
+      {
+        "date": "2026-07-01",
+        "open": 46234.7,
+        "high": 47293.1,
+        "low": 46234.7,
+        "close": 47018.99,
+        "volume": 14683404939.0
+      },
+      {
+        "date": "2026-07-02",
+        "open": 46833.89,
+        "high": 46910.31,
+        "low": 45981.89,
+        "close": 46744.16,
+        "volume": 11740053658.0
+      },
+      {
+        "date": "2026-07-03",
+        "open": 46545.14,
+        "high": 46948.83,
+        "low": 45880.69,
+        "close": 46780.62,
+        "volume": 12189040098.0
+      },
+      {
+        "date": "2026-07-06",
+        "open": 46897.18,
+        "high": 47395.3,
+        "low": 46431.38,
+        "close": 46556.39,
+        "volume": 12910602003.0
+      },
+      {
+        "date": "2026-07-07",
+        "open": 46537.34,
+        "high": 46967.04,
+        "low": 45432.02,
+        "close": 45479.11,
+        "volume": 15447467314.0
+      },
+      {
+        "date": "2026-07-08",
+        "open": 45524.69,
+        "high": 45837.12,
+        "low": 45036.64,
+        "close": 45734.41,
+        "volume": 11331191739.0
+      },
+      {
+        "date": "2026-07-09",
+        "open": 45805.62,
+        "high": 46064.06,
+        "low": 45352.41,
+        "close": 45354.61,
+        "volume": 10483502597.0
+      },
+      {
+        "date": "2026-07-13",
+        "open": 45500.32,
+        "high": 46330.91,
+        "low": 45272.9,
+        "close": 45380.52,
+        "volume": 11168410368.0
+      },
+      {
+        "date": "2026-07-14",
+        "open": 45364.4,
+        "high": 45364.4,
+        "low": 43654.04,
+        "close": 44737.95,
+        "volume": 15548656718.0
+      },
+      {
+        "date": "2026-07-15",
+        "open": 44850.69,
+        "high": 45881.91,
+        "low": 44850.69,
+        "close": 45631.59,
+        "volume": 10421924556.0
+      },
+      {
+        "date": "2026-07-16",
+        "open": 45511.98,
+        "high": 45855.02,
+        "low": 44970.64,
+        "close": 45624.98,
+        "volume": 10374680186.0
+      },
+      {
+        "date": "2026-07-17",
+        "open": 45234.08,
+        "high": 45234.08,
+        "low": 42671.27,
+        "close": 42671.27,
+        "volume": 18244071063.0
+      },
+      {
+        "date": "2026-07-20",
+        "open": 42793.15,
+        "high": 43084.51,
+        "low": 41967.75,
+        "close": 42449.7,
+        "volume": 12566601514.0
+      },
+      {
+        "date": "2026-07-21",
+        "open": 42566.93,
+        "high": 44232.87,
+        "low": 42566.93,
+        "close": 44232.87,
+        "volume": 10050212116.0
+      },
+      {
+        "date": "2026-07-22",
+        "open": 44513.75,
+        "high": 45323.75,
+        "low": 44513.75,
+        "close": 44825.78,
+        "volume": 11296458003.0
+      }
+    ],
+    "source": "TaiwanStockPrice",
+    "error": null
+  },
+  "institutional_flow": {
+    "raw_last_14d": [
+      {
+        "buy": 8868843746,
+        "date": "2026-07-08",
+        "name": "Dealer_self",
+        "sell": 12211540289
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-08",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 31713848127,
+        "date": "2026-07-08",
+        "name": "Dealer_Hedging",
+        "sell": 45313891820
+      },
+      {
+        "buy": 26647708627,
+        "date": "2026-07-08",
+        "name": "Investment_Trust",
+        "sell": 13967415943
+      },
+      {
+        "buy": 387383463245,
+        "date": "2026-07-08",
+        "name": "Foreign_Investor",
+        "sell": 425332451234
+      },
+      {
+        "buy": 454613863745,
+        "date": "2026-07-08",
+        "name": "total",
+        "sell": 496825299286
+      },
+      {
+        "buy": 9494954521,
+        "date": "2026-07-09",
+        "name": "Dealer_self",
+        "sell": 11531142442
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-09",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 27743223050,
+        "date": "2026-07-09",
+        "name": "Dealer_Hedging",
+        "sell": 33378200940
+      },
+      {
+        "buy": 30231840066,
+        "date": "2026-07-09",
+        "name": "Investment_Trust",
+        "sell": 10331239403
+      },
+      {
+        "buy": 367858937128,
+        "date": "2026-07-09",
+        "name": "Foreign_Investor",
+        "sell": 415111753557
+      },
+      {
+        "buy": 435328954765,
+        "date": "2026-07-09",
+        "name": "total",
+        "sell": 470352336342
+      },
+      {
+        "buy": 481043335287,
+        "date": "2026-07-13",
+        "name": "total",
+        "sell": 499122846870
+      },
+      {
+        "buy": 408855947974,
+        "date": "2026-07-13",
+        "name": "Foreign_Investor",
+        "sell": 428415711862
+      },
+      {
+        "buy": 28814503682,
+        "date": "2026-07-13",
+        "name": "Investment_Trust",
+        "sell": 16235948076
+      },
+      {
+        "buy": 11388023602,
+        "date": "2026-07-13",
+        "name": "Dealer_self",
+        "sell": 13352395091
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-13",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 31984860029,
+        "date": "2026-07-13",
+        "name": "Dealer_Hedging",
+        "sell": 41118791841
+      },
+      {
+        "buy": 14012436125,
+        "date": "2026-07-14",
+        "name": "Dealer_self",
+        "sell": 15318551202
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-14",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 57164168114,
+        "date": "2026-07-14",
+        "name": "Dealer_Hedging",
+        "sell": 94149199299
+      },
+      {
+        "buy": 33009561957,
+        "date": "2026-07-14",
+        "name": "Investment_Trust",
+        "sell": 22008000701
+      },
+      {
+        "buy": 455458836889,
+        "date": "2026-07-14",
+        "name": "Foreign_Investor",
+        "sell": 507351649396
+      },
+      {
+        "buy": 559645003085,
+        "date": "2026-07-14",
+        "name": "total",
+        "sell": 638827400598
+      },
+      {
+        "buy": 395092885421,
+        "date": "2026-07-15",
+        "name": "Foreign_Investor",
+        "sell": 396508274193
+      },
+      {
+        "buy": 34153100061,
+        "date": "2026-07-15",
+        "name": "Investment_Trust",
+        "sell": 21616812315
+      },
+      {
+        "buy": 485623189495,
+        "date": "2026-07-15",
+        "name": "total",
+        "sell": 464376186874
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-15",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 18236238136,
+        "date": "2026-07-15",
+        "name": "Dealer_self",
+        "sell": 11816555285
+      },
+      {
+        "buy": 38140965877,
+        "date": "2026-07-15",
+        "name": "Dealer_Hedging",
+        "sell": 34434545081
+      },
+      {
+        "buy": 346579091328,
+        "date": "2026-07-16",
+        "name": "Foreign_Investor",
+        "sell": 394914062107
+      },
+      {
+        "buy": 31857155928,
+        "date": "2026-07-16",
+        "name": "Investment_Trust",
+        "sell": 23212024077
+      },
+      {
+        "buy": 420421608235,
+        "date": "2026-07-16",
+        "name": "total",
+        "sell": 463469052892
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-16",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 11634443323,
+        "date": "2026-07-16",
+        "name": "Dealer_self",
+        "sell": 10419094299
+      },
+      {
+        "buy": 30350917656,
+        "date": "2026-07-16",
+        "name": "Dealer_Hedging",
+        "sell": 34923872409
+      },
+      {
+        "buy": 10464808345,
+        "date": "2026-07-17",
+        "name": "Dealer_self",
+        "sell": 20539666870
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-17",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 65244061000,
+        "date": "2026-07-17",
+        "name": "Dealer_Hedging",
+        "sell": 137348696641
+      },
+      {
+        "buy": 40886137943,
+        "date": "2026-07-17",
+        "name": "Investment_Trust",
+        "sell": 33538772856
+      },
+      {
+        "buy": 385927022528,
+        "date": "2026-07-17",
+        "name": "Foreign_Investor",
+        "sell": 574241571585
+      },
+      {
+        "buy": 502522029816,
+        "date": "2026-07-17",
+        "name": "total",
+        "sell": 765668707952
+      },
+      {
+        "buy": 572215607095,
+        "date": "2026-07-20",
+        "name": "total",
+        "sell": 570041931331
+      },
+      {
+        "buy": 467832013383,
+        "date": "2026-07-20",
+        "name": "Foreign_Investor",
+        "sell": 473915691059
+      },
+      {
+        "buy": 38851814844,
+        "date": "2026-07-20",
+        "name": "Investment_Trust",
+        "sell": 22530017915
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-20",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 12667950960,
+        "date": "2026-07-20",
+        "name": "Dealer_self",
+        "sell": 12103970566
+      },
+      {
+        "buy": 52863827908,
+        "date": "2026-07-20",
+        "name": "Dealer_Hedging",
+        "sell": 61492251791
+      },
+      {
+        "buy": 9857567180,
+        "date": "2026-07-21",
+        "name": "Dealer_self",
+        "sell": 8460494914
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-21",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 29355920782,
+        "date": "2026-07-21",
+        "name": "Dealer_Hedging",
+        "sell": 27245597860
+      },
+      {
+        "buy": 39169378897,
+        "date": "2026-07-21",
+        "name": "Investment_Trust",
+        "sell": 22055447754
+      },
+      {
+        "buy": 351767701476,
+        "date": "2026-07-21",
+        "name": "Foreign_Investor",
+        "sell": 356099564323
+      },
+      {
+        "buy": 430150568335,
+        "date": "2026-07-21",
+        "name": "total",
+        "sell": 413861104851
+      },
+      {
+        "buy": 410168282425,
+        "date": "2026-07-22",
+        "name": "Foreign_Investor",
+        "sell": 392824289824
+      },
+      {
+        "buy": 9459407986,
+        "date": "2026-07-22",
+        "name": "Dealer_self",
+        "sell": 12914587689
+      },
+      {
+        "buy": 0,
+        "date": "2026-07-22",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 33472672095,
+        "date": "2026-07-22",
+        "name": "Dealer_Hedging",
+        "sell": 32415487549
+      },
+      {
+        "buy": 38853210565,
+        "date": "2026-07-22",
+        "name": "Investment_Trust",
+        "sell": 19950318419
+      },
+      {
+        "buy": 491953573071,
+        "date": "2026-07-22",
+        "name": "total",
+        "sell": 458104683481
+      }
+    ],
+    "error": null
+  },
+  "margin_balance": {
+    "raw_last_14d": [
+      {
+        "TodayBalance": 9590605,
+        "YesBalance": 9531898,
+        "buy": 406961,
+        "date": "2026-07-08",
+        "name": "MarginPurchase",
+        "Return": 7923,
+        "sell": 340331
+      },
+      {
+        "TodayBalance": 205830,
+        "YesBalance": 213844,
+        "buy": 29930,
+        "date": "2026-07-08",
+        "name": "ShortSale",
+        "Return": 3097,
+        "sell": 25013
+      },
+      {
+        "TodayBalance": 613815725000,
+        "YesBalance": 610945242000,
+        "buy": 29802251000,
+        "date": "2026-07-08",
+        "name": "MarginPurchaseMoney",
+        "Return": 1242652000,
+        "sell": 25689116000
+      },
+      {
+        "TodayBalance": 9614955,
+        "YesBalance": 9590604,
+        "buy": 372813,
+        "date": "2026-07-09",
+        "name": "MarginPurchase",
+        "Return": 6357,
+        "sell": 342105
+      },
+      {
+        "TodayBalance": 203714,
+        "YesBalance": 205830,
+        "buy": 24248,
+        "date": "2026-07-09",
+        "name": "ShortSale",
+        "Return": 1979,
+        "sell": 24111
+      },
+      {
+        "TodayBalance": 619648244000,
+        "YesBalance": 613815722000,
+        "buy": 31178841000,
+        "date": "2026-07-09",
+        "name": "MarginPurchaseMoney",
+        "Return": 540287000,
+        "sell": 24806032000
+      },
+      {
+        "TodayBalance": 9602554,
+        "YesBalance": 9614953,
+        "buy": 417540,
+        "date": "2026-07-13",
+        "name": "MarginPurchase",
+        "Return": 6632,
+        "sell": 423307
+      },
+      {
+        "TodayBalance": 203238,
+        "YesBalance": 203714,
+        "buy": 22928,
+        "date": "2026-07-13",
+        "name": "ShortSale",
+        "Return": 2793,
+        "sell": 25245
+      },
+      {
+        "TodayBalance": 618299040000,
+        "YesBalance": 619648244000,
+        "buy": 34983037000,
+        "date": "2026-07-13",
+        "name": "MarginPurchaseMoney",
+        "Return": 602531000,
+        "sell": 35729710000
+      },
+      {
+        "TodayBalance": 9465644,
+        "YesBalance": 9602553,
+        "buy": 515321,
+        "date": "2026-07-14",
+        "name": "MarginPurchase",
+        "Return": 10619,
+        "sell": 641611
+      },
+      {
+        "TodayBalance": 180712,
+        "YesBalance": 203238,
+        "buy": 40124,
+        "date": "2026-07-14",
+        "name": "ShortSale",
+        "Return": 12081,
+        "sell": 29679
+      },
+      {
+        "TodayBalance": 604034106000,
+        "YesBalance": 618300058000,
+        "buy": 37192135000,
+        "date": "2026-07-14",
+        "name": "MarginPurchaseMoney",
+        "Return": 1599182000,
+        "sell": 49858905000
+      },
+      {
+        "TodayBalance": 173131,
+        "YesBalance": 180712,
+        "buy": 29898,
+        "date": "2026-07-15",
+        "name": "ShortSale",
+        "Return": 2767,
+        "sell": 25084
+      },
+      {
+        "TodayBalance": 615368175000,
+        "YesBalance": 604033934000,
+        "buy": 37420981000,
+        "date": "2026-07-15",
+        "name": "MarginPurchaseMoney",
+        "Return": 575664000,
+        "sell": 25511076000
+      },
+      {
+        "TodayBalance": 9519727,
+        "YesBalance": 9465643,
+        "buy": 401366,
+        "date": "2026-07-15",
+        "name": "MarginPurchase",
+        "Return": 7575,
+        "sell": 339707
+      },
+      {
+        "TodayBalance": 9513579,
+        "YesBalance": 9519940,
+        "buy": 334106,
+        "date": "2026-07-16",
+        "name": "MarginPurchase",
+        "Return": 5357,
+        "sell": 335110
+      },
+      {
+        "TodayBalance": 176622,
+        "YesBalance": 173133,
+        "buy": 21066,
+        "date": "2026-07-16",
+        "name": "ShortSale",
+        "Return": 1274,
+        "sell": 25829
+      },
+      {
+        "TodayBalance": 615575992000,
+        "YesBalance": 615388784000,
+        "buy": 28459204000,
+        "date": "2026-07-16",
+        "name": "MarginPurchaseMoney",
+        "Return": 1312728000,
+        "sell": 26959268000
+      },
+      {
+        "TodayBalance": 9348875,
+        "YesBalance": 9513578,
+        "buy": 522741,
+        "date": "2026-07-17",
+        "name": "MarginPurchase",
+        "Return": 12642,
+        "sell": 674802
+      },
+      {
+        "TodayBalance": 236300,
+        "YesBalance": 176622,
+        "buy": 34788,
+        "date": "2026-07-17",
+        "name": "ShortSale",
+        "Return": 3732,
+        "sell": 98198
+      },
+      {
+        "TodayBalance": 587962513000,
+        "YesBalance": 615575992000,
+        "buy": 29661978000,
+        "date": "2026-07-17",
+        "name": "MarginPurchaseMoney",
+        "Return": 2356341000,
+        "sell": 54919116000
+      },
+      {
+        "TodayBalance": 9270939,
+        "YesBalance": 9348875,
+        "buy": 392233,
+        "date": "2026-07-20",
+        "name": "MarginPurchase",
+        "Return": 17046,
+        "sell": 453123
+      },
+      {
+        "TodayBalance": 210862,
+        "YesBalance": 236300,
+        "buy": 53639,
+        "date": "2026-07-20",
+        "name": "ShortSale",
+        "Return": 743,
+        "sell": 28944
+      },
+      {
+        "TodayBalance": 569035788000,
+        "YesBalance": 587963142000,
+        "buy": 23968599000,
+        "date": "2026-07-20",
+        "name": "MarginPurchaseMoney",
+        "Return": 3200198000,
+        "sell": 39695755000
+      },
+      {
+        "TodayBalance": 9359440,
+        "YesBalance": 9270954,
+        "buy": 391084,
+        "date": "2026-07-21",
+        "name": "MarginPurchase",
+        "Return": 9757,
+        "sell": 292841
+      },
+      {
+        "TodayBalance": 212614,
+        "YesBalance": 210862,
+        "buy": 32012,
+        "date": "2026-07-21",
+        "name": "ShortSale",
+        "Return": 4368,
+        "sell": 38132
+      },
+      {
+        "TodayBalance": 576496237000,
+        "YesBalance": 569035380000,
+        "buy": 27613888000,
+        "date": "2026-07-21",
+        "name": "MarginPurchaseMoney",
+        "Return": 958839000,
+        "sell": 19194192000
+      },
+      {
+        "TodayBalance": 206549,
+        "YesBalance": 212614,
+        "buy": 24974,
+        "date": "2026-07-22",
+        "name": "ShortSale",
+        "Return": 25412,
+        "sell": 44321
+      },
+      {
+        "TodayBalance": 9354572,
+        "YesBalance": 9359439,
+        "buy": 390043,
+        "date": "2026-07-22",
+        "name": "MarginPurchase",
+        "Return": 4700,
+        "sell": 390210
+      },
+      {
+        "TodayBalance": 582823505000,
+        "YesBalance": 576496212000,
+        "buy": 34391383000,
+        "date": "2026-07-22",
+        "name": "MarginPurchaseMoney",
+        "Return": 460139000,
+        "sell": 27603951000
+      }
+    ],
+    "error": null
+  },
+  "futures_oi": {
+    "raw_last_14d": [
+      {
+        "futures_id": "TX",
+        "date": "2026-07-08",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 7150,
+        "long_deal_amount": 65151892,
+        "short_deal_volume": 7640,
+        "short_deal_amount": 69701215,
+        "long_open_interest_balance_volume": 8047,
+        "long_open_interest_balance_amount": 73517922,
+        "short_open_interest_balance_volume": 4736,
+        "short_open_interest_balance_amount": 43283019
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-08",
+        "institutional_investors": "投信",
+        "long_deal_volume": 4698,
+        "long_deal_amount": 43015043,
+        "short_deal_volume": 2898,
+        "short_deal_amount": 26436941,
+        "long_open_interest_balance_volume": 76013,
+        "long_open_interest_balance_amount": 692985100,
+        "short_open_interest_balance_volume": 6026,
+        "short_open_interest_balance_amount": 54974391
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-08",
+        "institutional_investors": "外資",
+        "long_deal_volume": 80320,
+        "long_deal_amount": 731920919,
+        "short_deal_volume": 81515,
+        "short_deal_amount": 743087474,
+        "long_open_interest_balance_volume": 5632,
+        "long_open_interest_balance_amount": 51399559,
+        "short_open_interest_balance_volume": 86900,
+        "short_open_interest_balance_amount": 792463089
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-09",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 7489,
+        "long_deal_amount": 68392046,
+        "short_deal_volume": 8439,
+        "short_deal_amount": 77152690,
+        "long_open_interest_balance_volume": 7455,
+        "long_open_interest_balance_amount": 68296266,
+        "short_open_interest_balance_volume": 5212,
+        "short_open_interest_balance_amount": 47769736
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-09",
+        "institutional_investors": "投信",
+        "long_deal_volume": 7421,
+        "long_deal_amount": 68185516,
+        "short_deal_volume": 5719,
+        "short_deal_amount": 52315804,
+        "long_open_interest_balance_volume": 77706,
+        "long_open_interest_balance_amount": 710124202,
+        "short_open_interest_balance_volume": 6017,
+        "short_open_interest_balance_amount": 55009742
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-09",
+        "institutional_investors": "外資",
+        "long_deal_volume": 87694,
+        "long_deal_amount": 798802069,
+        "short_deal_volume": 87226,
+        "short_deal_amount": 794995895,
+        "long_open_interest_balance_volume": 6562,
+        "long_open_interest_balance_amount": 60008754,
+        "short_open_interest_balance_volume": 87292,
+        "short_open_interest_balance_amount": 797925628
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-13",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 10859,
+        "long_deal_amount": 99670218,
+        "short_deal_volume": 11802,
+        "short_deal_amount": 108494241,
+        "long_open_interest_balance_volume": 7010,
+        "long_open_interest_balance_amount": 64181193,
+        "short_open_interest_balance_volume": 5740,
+        "short_open_interest_balance_amount": 52643090
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-13",
+        "institutional_investors": "投信",
+        "long_deal_volume": 38464,
+        "long_deal_amount": 354122113,
+        "short_deal_volume": 38359,
+        "short_deal_amount": 350384134,
+        "long_open_interest_balance_volume": 77830,
+        "long_open_interest_balance_amount": 712836885,
+        "short_open_interest_balance_volume": 6036,
+        "short_open_interest_balance_amount": 55104188
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-13",
+        "institutional_investors": "外資",
+        "long_deal_volume": 115858,
+        "long_deal_amount": 1062738070,
+        "short_deal_volume": 116287,
+        "short_deal_amount": 1069330042,
+        "long_open_interest_balance_volume": 10564,
+        "long_open_interest_balance_amount": 96449940,
+        "short_open_interest_balance_volume": 91630,
+        "short_open_interest_balance_amount": 838870243
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-14",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 18415,
+        "long_deal_amount": 165031400,
+        "short_deal_volume": 17580,
+        "short_deal_amount": 158013049,
+        "long_open_interest_balance_volume": 7573,
+        "long_open_interest_balance_amount": 68237918,
+        "short_open_interest_balance_volume": 5221,
+        "short_open_interest_balance_amount": 47125630
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-14",
+        "institutional_investors": "投信",
+        "long_deal_volume": 30931,
+        "long_deal_amount": 277031117,
+        "short_deal_volume": 28852,
+        "short_deal_amount": 256845189,
+        "long_open_interest_balance_volume": 79928,
+        "long_open_interest_balance_amount": 721505121,
+        "short_open_interest_balance_volume": 6055,
+        "short_open_interest_balance_amount": 54537257
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-14",
+        "institutional_investors": "外資",
+        "long_deal_volume": 130107,
+        "long_deal_amount": 1166274183,
+        "short_deal_volume": 132326,
+        "short_deal_amount": 1187371511,
+        "long_open_interest_balance_volume": 10732,
+        "long_open_interest_balance_amount": 96522287,
+        "short_open_interest_balance_volume": 94122,
+        "short_open_interest_balance_amount": 849133079
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-15",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 8774,
+        "long_deal_amount": 79913086,
+        "short_deal_volume": 10717,
+        "short_deal_amount": 97646365,
+        "long_open_interest_balance_volume": 3941,
+        "long_open_interest_balance_amount": 36404678,
+        "short_open_interest_balance_volume": 4605,
+        "short_open_interest_balance_amount": 42508599
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-15",
+        "institutional_investors": "投信",
+        "long_deal_volume": 6242,
+        "long_deal_amount": 57219234,
+        "short_deal_volume": 4469,
+        "short_deal_amount": 40853445,
+        "long_open_interest_balance_volume": 81601,
+        "long_open_interest_balance_amount": 751806333,
+        "short_open_interest_balance_volume": 5955,
+        "short_open_interest_balance_amount": 54864606
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-15",
+        "institutional_investors": "外資",
+        "long_deal_volume": 61727,
+        "long_deal_amount": 561690489,
+        "short_deal_volume": 60535,
+        "short_deal_amount": 551182103,
+        "long_open_interest_balance_volume": 7319,
+        "long_open_interest_balance_amount": 67433521,
+        "short_open_interest_balance_volume": 86876,
+        "short_open_interest_balance_amount": 800498844
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-16",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 6015,
+        "long_deal_amount": 54932418,
+        "short_deal_volume": 4682,
+        "short_deal_amount": 42872836,
+        "long_open_interest_balance_volume": 5377,
+        "long_open_interest_balance_amount": 49252384,
+        "short_open_interest_balance_volume": 4720,
+        "short_open_interest_balance_amount": 43225525
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-16",
+        "institutional_investors": "投信",
+        "long_deal_volume": 736,
+        "long_deal_amount": 6735595,
+        "short_deal_volume": 118,
+        "short_deal_amount": 1081082,
+        "long_open_interest_balance_volume": 82210,
+        "long_open_interest_balance_amount": 751251422,
+        "short_open_interest_balance_volume": 5946,
+        "short_open_interest_balance_amount": 54335737
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-16",
+        "institutional_investors": "外資",
+        "long_deal_volume": 71374,
+        "long_deal_amount": 652820513,
+        "short_deal_volume": 74581,
+        "short_deal_amount": 682079318,
+        "long_open_interest_balance_volume": 5895,
+        "long_open_interest_balance_amount": 53873332,
+        "short_open_interest_balance_volume": 90348,
+        "short_open_interest_balance_amount": 825740742
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-17",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 16071,
+        "long_deal_amount": 141254728,
+        "short_deal_volume": 12057,
+        "short_deal_amount": 104446076,
+        "long_open_interest_balance_volume": 8531,
+        "long_open_interest_balance_amount": 72821828,
+        "short_open_interest_balance_volume": 3865,
+        "short_open_interest_balance_amount": 33034244
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-17",
+        "institutional_investors": "投信",
+        "long_deal_volume": 626,
+        "long_deal_amount": 5404052,
+        "short_deal_volume": 1675,
+        "short_deal_amount": 14324541,
+        "long_open_interest_balance_volume": 81369,
+        "long_open_interest_balance_amount": 693328975,
+        "short_open_interest_balance_volume": 6154,
+        "short_open_interest_balance_amount": 52437003
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-17",
+        "institutional_investors": "外資",
+        "long_deal_volume": 94608,
+        "long_deal_amount": 831968180,
+        "short_deal_volume": 95415,
+        "short_deal_amount": 840939545,
+        "long_open_interest_balance_volume": 6867,
+        "long_open_interest_balance_amount": 58518521,
+        "short_open_interest_balance_volume": 93056,
+        "short_open_interest_balance_amount": 793051616
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-20",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 5897,
+        "long_deal_amount": 50704025,
+        "short_deal_volume": 7592,
+        "short_deal_amount": 65276090,
+        "long_open_interest_balance_volume": 7093,
+        "long_open_interest_balance_amount": 60637360,
+        "short_open_interest_balance_volume": 4119,
+        "short_open_interest_balance_amount": 35228147
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-20",
+        "institutional_investors": "投信",
+        "long_deal_volume": 222,
+        "long_deal_amount": 1901270,
+        "short_deal_volume": 2991,
+        "short_deal_amount": 25630459,
+        "long_open_interest_balance_volume": 78642,
+        "long_open_interest_balance_amount": 671005001,
+        "short_open_interest_balance_volume": 6196,
+        "short_open_interest_balance_amount": 52866750
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-20",
+        "institutional_investors": "外資",
+        "long_deal_volume": 99254,
+        "long_deal_amount": 853672617,
+        "short_deal_volume": 92693,
+        "short_deal_amount": 797198998,
+        "long_open_interest_balance_volume": 10496,
+        "long_open_interest_balance_amount": 89561715,
+        "short_open_interest_balance_volume": 88833,
+        "short_open_interest_balance_amount": 758082784
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-21",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 3287,
+        "long_deal_amount": 28840147,
+        "short_deal_volume": 5051,
+        "short_deal_amount": 44279922,
+        "long_open_interest_balance_volume": 5607,
+        "long_open_interest_balance_amount": 49887061,
+        "short_open_interest_balance_volume": 4404,
+        "short_open_interest_balance_amount": 39169192
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-21",
+        "institutional_investors": "投信",
+        "long_deal_volume": 3184,
+        "long_deal_amount": 28211991,
+        "short_deal_volume": 60,
+        "short_deal_amount": 525530,
+        "long_open_interest_balance_volume": 81608,
+        "long_open_interest_balance_amount": 724271000,
+        "short_open_interest_balance_volume": 6038,
+        "short_open_interest_balance_amount": 53587250
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-21",
+        "institutional_investors": "外資",
+        "long_deal_volume": 60799,
+        "long_deal_amount": 530469350,
+        "short_deal_volume": 60997,
+        "short_deal_amount": 532389732,
+        "long_open_interest_balance_volume": 9379,
+        "long_open_interest_balance_amount": 83243942,
+        "short_open_interest_balance_volume": 87869,
+        "short_open_interest_balance_amount": 779974121
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-22",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 4593,
+        "long_deal_amount": 41284814,
+        "short_deal_volume": 4658,
+        "short_deal_amount": 41905027,
+        "long_open_interest_balance_volume": 5108,
+        "long_open_interest_balance_amount": 45727345,
+        "short_open_interest_balance_volume": 3969,
+        "short_open_interest_balance_amount": 35519201
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-22",
+        "institutional_investors": "投信",
+        "long_deal_volume": 461,
+        "long_deal_amount": 4121525,
+        "short_deal_volume": 408,
+        "short_deal_amount": 3659512,
+        "long_open_interest_balance_volume": 81796,
+        "long_open_interest_balance_amount": 730356484,
+        "short_open_interest_balance_volume": 6173,
+        "short_open_interest_balance_amount": 55118717
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-07-22",
+        "institutional_investors": "外資",
+        "long_deal_volume": 57256,
+        "long_deal_amount": 514049610,
+        "short_deal_volume": 56791,
+        "short_deal_amount": 509804105,
+        "long_open_interest_balance_volume": 8455,
+        "long_open_interest_balance_amount": 75499303,
+        "short_open_interest_balance_volume": 85050,
+        "short_open_interest_balance_amount": 759539261
+      }
+    ],
+    "error": null
+  },
+  "spx": {
+    "ohlc": [],
+    "error": "404 Client Error: Not Found for url: https://api.twelvedata.com/time_series?symbol=SPX&interval=1day&outputsize=90&apikey=935557215a1748fbaa5d7a0883532d21"
+  },
+  "vix": {
+    "ohlc": [],
+    "error": "404 Client Error: Not Found for url: https://api.twelvedata.com/time_series?symbol=VIX&interval=1day&outputsize=90&apikey=935557215a1748fbaa5d7a0883532d21"
+  },
+  "fred": {
+    "t10y2y_bps": 37.0,
+    "hy_oas_pct": 2.69,
+    "core_pce_yoy_pct": 3.41,
+    "error": null,
+    "t10y2y_date": "2026-07-21",
+    "hy_oas_date": "2026-07-20",
+    "hy_oas_5d_change_bps": 0.0,
+    "core_pce_date": "2026-05-01"
+  }
 }
