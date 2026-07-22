@@ -138,6 +138,7 @@ def fetch_futures_oi():
 
 
 def fetch_twelve_data_series(symbol, outputsize=90):
+    """呼叫 Twelve Data time_series，單一 symbol 嘗試。失敗時回傳 error 字串，不丟例外。"""
     try:
         params = {
             "symbol": symbol,
@@ -163,6 +164,25 @@ def fetch_twelve_data_series(symbol, outputsize=90):
         return {"ohlc": [], "error": str(e)}
 
 
+def fetch_spx_proxy_ohlc(outputsize=90):
+    """
+    S&P 500 OHLC。Twelve Data 對指數 symbol 的命名不穩定（"SPX" 常 404），
+    依序嘗試「真指數 symbol」→ 失敗則退到 SPY（S&P 500 ETF）作為技術面代理。
+    SPY 與 S&P 500 指數走勢形態高度一致（只是價格被除以約 10 倍），
+    KD/MACD/布林/均線排列等『相對』技術判讀不受影響，只有絕對點位不同。
+    """
+    for symbol in ["SPX", "GSPC", "SPY"]:
+        result = fetch_twelve_data_series(symbol, outputsize=outputsize)
+        if result["ohlc"]:
+            result["symbol_used"] = symbol
+            result["note"] = (
+                "真實指數數值" if symbol in ("SPX", "GSPC")
+                else "SPY ETF 代理（S&P 500 指數 symbol 於 Twelve Data 無法直接取得，改用 ETF 技術面替代，形態一致）"
+            )
+            return result
+    return {"ohlc": [], "symbol_used": None, "error": "SPX/GSPC/SPY 皆失敗，見個別錯誤需查 Action log"}
+
+
 def fetch_fred_series(series_id, limit=400):
     try:
         params = {
@@ -181,6 +201,19 @@ def fetch_fred_series(series_id, limit=400):
         return clean
     except Exception as e:
         raise RuntimeError(f"{series_id}: {e}")
+
+
+def fetch_vix_from_fred(limit=90):
+    """
+    VIX 每日收盤序列（FRED: VIXCLS）。
+    只有收盤價、無 OHLC，但 Mode C 的 VIX 因子與 Mode W 的 C4 因子都只需要
+    「現值 + 短期%變化」即可判讀評分，不需要開高低，FRED 這條序列完全足夠，
+    且比 Twelve Data 的指數 symbol 穩定可靠（FRED 為公開官方數據源）。
+    """
+    obs = fetch_fred_series("VIXCLS", limit=limit)
+    # FRED 回傳新到舊，轉成舊到新，欄位統一成 close，方便與下游邏輯共用
+    series = [{"date": o["date"], "close": float(o["value"])} for o in reversed(obs)]
+    return series
 
 
 def fetch_fred_block():
@@ -223,14 +256,21 @@ def fetch_fred_block():
 
 
 def main():
+    vix_error = None
+    try:
+        vix_series = fetch_vix_from_fred()
+    except Exception as e:
+        vix_series = []
+        vix_error = str(e)
+
     output = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
         "taiex": fetch_taiex_ohlc(),
         "institutional_flow": fetch_institutional_flow(),
         "margin_balance": fetch_margin_balance(),
         "futures_oi": fetch_futures_oi(),
-        "spx": fetch_twelve_data_series("SPX"),
-        "vix": fetch_twelve_data_series("VIX"),
+        "spx": fetch_spx_proxy_ohlc(),
+        "vix": {"series": vix_series, "source": "FRED VIXCLS", "error": vix_error},
         "fred": fetch_fred_block(),
     }
 
@@ -240,8 +280,8 @@ def main():
 
     print(f"寫入完成: {OUTPUT_PATH}")
     print(f"TAIEX: {len(output['taiex']['ohlc'])} 筆, error={output['taiex']['error']}")
-    print(f"SPX: {len(output['spx']['ohlc'])} 筆, error={output['spx']['error']}")
-    print(f"VIX: {len(output['vix']['ohlc'])} 筆, error={output['vix']['error']}")
+    print(f"SPX: {len(output['spx']['ohlc'])} 筆, symbol={output['spx'].get('symbol_used')}, error={output['spx']['error']}")
+    print(f"VIX: {len(output['vix']['series'])} 筆, error={output['vix']['error']}")
     print(f"FRED error: {output['fred']['error']}")
 
 
