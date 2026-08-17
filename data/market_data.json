@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:12:29.823803Z",
+  "generated_at": "2026-08-17T21:58:34.399533Z",
   "taiex": {
     "ohlc": [
       {
@@ -960,7 +960,7 @@
         "high": 46189.3,
         "low": 45765.07,
         "close": 45857.27,
-        "volume": 10610935292.0
+        "volume": 10616088292.0
       }
     ],
     "source": "TaiwanStockPrice",
@@ -1329,10 +1329,10 @@
         "sell": 459609095937
       },
       {
-        "buy": 0,
+        "buy": 369663152041,
         "date": "2026-08-17",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
+        "name": "Foreign_Investor",
+        "sell": 324215867015
       },
       {
         "buy": 11405300339,
@@ -1341,28 +1341,28 @@
         "sell": 7865150499
       },
       {
-        "buy": 35764319743,
+        "buy": 0,
+        "date": "2026-08-17",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 35764664555,
         "date": "2026-08-17",
         "name": "Dealer_Hedging",
-        "sell": 37899166667
+        "sell": 37899511479
       },
       {
-        "buy": 22323334935,
+        "buy": 26085051545,
         "date": "2026-08-17",
         "name": "Investment_Trust",
-        "sell": 40069997036
+        "sell": 43861902730
       },
       {
-        "buy": 368116052597,
-        "date": "2026-08-17",
-        "name": "Foreign_Investor",
-        "sell": 322668767571
-      },
-      {
-        "buy": 437609007614,
+        "buy": 442918168480,
         "date": "2026-08-17",
         "name": "total",
-        "sell": 408503081773
+        "sell": 413842431723
       }
     ],
     "error": null
@@ -1478,6 +1478,15 @@
         "sell": 24486414000
       },
       {
+        "TodayBalance": 8986438,
+        "YesBalance": 8958261,
+        "buy": 350138,
+        "date": "2026-08-07",
+        "name": "MarginPurchase",
+        "Return": 24855,
+        "sell": 297106
+      },
+      {
         "TodayBalance": 192740,
         "YesBalance": 191897,
         "buy": 20636,
@@ -1496,22 +1505,13 @@
         "sell": 24868720000
       },
       {
-        "TodayBalance": 8986438,
-        "YesBalance": 8958261,
-        "buy": 350138,
-        "date": "2026-08-07",
-        "name": "MarginPurchase",
-        "Return": 24855,
-        "sell": 297106
-      },
-      {
-        "TodayBalance": 9003223,
-        "YesBalance": 8986437,
-        "buy": 436013,
+        "TodayBalance": 545295561000,
+        "YesBalance": 537664510000,
+        "buy": 38849343000,
         "date": "2026-08-10",
-        "name": "MarginPurchase",
-        "Return": 7092,
-        "sell": 412135
+        "name": "MarginPurchaseMoney",
+        "Return": 368618000,
+        "sell": 30849674000
       },
       {
         "TodayBalance": 202632,
@@ -1523,13 +1523,13 @@
         "sell": 28202
       },
       {
-        "TodayBalance": 545295561000,
-        "YesBalance": 537664510000,
-        "buy": 38849343000,
+        "TodayBalance": 9003223,
+        "YesBalance": 8986437,
+        "buy": 436013,
         "date": "2026-08-10",
-        "name": "MarginPurchaseMoney",
-        "Return": 368618000,
-        "sell": 30849674000
+        "name": "MarginPurchase",
+        "Return": 7092,
+        "sell": 412135
       },
       {
         "TodayBalance": 8970583,
@@ -1613,15 +1613,6 @@
         "sell": 36702852000
       },
       {
-        "TodayBalance": 222827,
-        "YesBalance": 214046,
-        "buy": 17159,
-        "date": "2026-08-14",
-        "name": "ShortSale",
-        "Return": 2627,
-        "sell": 28567
-      },
-      {
         "TodayBalance": 8918284,
         "YesBalance": 8969839,
         "buy": 366478,
@@ -1631,6 +1622,15 @@
         "sell": 405240
       },
       {
+        "TodayBalance": 222827,
+        "YesBalance": 214046,
+        "buy": 17159,
+        "date": "2026-08-14",
+        "name": "ShortSale",
+        "Return": 2627,
+        "sell": 28567
+      },
+      {
         "TodayBalance": 547059318000,
         "YesBalance": 549780654000,
         "buy": 32821706000,
@@ -1638,6 +1638,33 @@
         "name": "MarginPurchaseMoney",
         "Return": 418346000,
         "sell": 35124696000
+      },
+      {
+        "TodayBalance": 8867617,
+        "YesBalance": 8918284,
+        "buy": 342052,
+        "date": "2026-08-17",
+        "name": "MarginPurchase",
+        "Return": 8822,
+        "sell": 383897
+      },
+      {
+        "TodayBalance": 218218,
+        "YesBalance": 222827,
+        "buy": 23943,
+        "date": "2026-08-17",
+        "name": "ShortSale",
+        "Return": 2465,
+        "sell": 21799
+      },
+      {
+        "TodayBalance": 550101672000,
+        "YesBalance": 547059318000,
+        "buy": 35073983000,
+        "date": "2026-08-17",
+        "name": "MarginPurchaseMoney",
+        "Return": 613432000,
+        "sell": 31418197000
       }
     ],
     "error": null
@@ -2078,14 +2105,6 @@
   },
   "spx": {
     "ohlc": [
-      {
-        "date": "2026-04-08",
-        "open": 676.39001,
-        "high": 677.080017,
-        "low": 671.46002,
-        "close": 676.01001,
-        "volume": 93606100.0
-      },
       {
         "date": "2026-04-09",
         "open": 674.84003,
@@ -2797,6 +2816,14 @@
         "low": 775.42999,
         "close": 776.34003,
         "volume": 31332500.0
+      },
+      {
+        "date": "2026-08-17",
+        "open": 776.17999,
+        "high": 776.77502,
+        "low": 772.51,
+        "close": 772.67999,
+        "volume": 28561648.0
       }
     ],
     "error": null,
@@ -2805,10 +2832,6 @@
   },
   "vix": {
     "series": [
-      {
-        "date": "2026-04-10",
-        "close": 19.23
-      },
       {
         "date": "2026-04-13",
         "close": 19.12
@@ -3164,19 +3187,23 @@
       {
         "date": "2026-08-13",
         "close": 14.63
+      },
+      {
+        "date": "2026-08-14",
+        "close": 14.25
       }
     ],
     "source": "FRED VIXCLS",
     "error": null
   },
   "fred": {
-    "t10y2y_bps": 51.0,
-    "hy_oas_pct": 2.71,
+    "t10y2y_bps": 53.0,
+    "hy_oas_pct": 2.67,
     "core_pce_yoy_pct": 3.29,
     "error": null,
-    "t10y2y_date": "2026-08-14",
-    "hy_oas_date": "2026-08-13",
-    "hy_oas_5d_change_bps": 0.0,
+    "t10y2y_date": "2026-08-17",
+    "hy_oas_date": "2026-08-14",
+    "hy_oas_5d_change_bps": -3.0,
     "core_pce_date": "2026-06-01"
   }
 }
