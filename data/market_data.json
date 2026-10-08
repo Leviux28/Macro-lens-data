@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T01:19:09.096136Z",
+  "generated_at": "2026-10-08T13:19:47.148338Z",
   "taiex": {
     "ohlc": [
       {
@@ -985,6 +985,14 @@
         "low": 49567.52,
         "close": 49806.37,
         "volume": 10357959027.0
+      },
+      {
+        "date": "2026-10-08",
+        "open": 49783.06,
+        "high": 49783.06,
+        "low": 49189.77,
+        "close": 49313.44,
+        "volume": 10437288727.0
       }
     ],
     "source": "TaiwanStockPrice",
@@ -1029,34 +1037,16 @@
         "sell": 363762085073
       },
       {
-        "buy": 382897910578,
+        "buy": 7185151629,
         "date": "2026-09-29",
-        "name": "total",
-        "sell": 461303594629
-      },
-      {
-        "buy": 337936156534,
-        "date": "2026-09-29",
-        "name": "Foreign_Investor",
-        "sell": 400518707059
-      },
-      {
-        "buy": 16429816007,
-        "date": "2026-09-29",
-        "name": "Investment_Trust",
-        "sell": 15850428682
+        "name": "Dealer_self",
+        "sell": 7993779743
       },
       {
         "buy": 0,
         "date": "2026-09-29",
         "name": "Foreign_Dealer_Self",
         "sell": 0
-      },
-      {
-        "buy": 7185151629,
-        "date": "2026-09-29",
-        "name": "Dealer_self",
-        "sell": 7993779743
       },
       {
         "buy": 21346786408,
@@ -1065,34 +1055,22 @@
         "sell": 36940679145
       },
       {
-        "buy": 7572941960,
-        "date": "2026-09-30",
-        "name": "Dealer_self",
-        "sell": 6191730730
-      },
-      {
-        "buy": 0,
-        "date": "2026-09-30",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
-      },
-      {
-        "buy": 25863864479,
-        "date": "2026-09-30",
-        "name": "Dealer_Hedging",
-        "sell": 26004723087
-      },
-      {
-        "buy": 23413007171,
-        "date": "2026-09-30",
+        "buy": 16429816007,
+        "date": "2026-09-29",
         "name": "Investment_Trust",
-        "sell": 15122220612
+        "sell": 15850428682
       },
       {
-        "buy": 395761657462,
-        "date": "2026-09-30",
+        "buy": 337936156534,
+        "date": "2026-09-29",
         "name": "Foreign_Investor",
-        "sell": 364905101796
+        "sell": 400518707059
+      },
+      {
+        "buy": 382897910578,
+        "date": "2026-09-29",
+        "name": "total",
+        "sell": 461303594629
       },
       {
         "buy": 452611471072,
@@ -1101,28 +1079,34 @@
         "sell": 412223776225
       },
       {
-        "buy": 316713635850,
-        "date": "2026-10-01",
+        "buy": 395761657462,
+        "date": "2026-09-30",
         "name": "Foreign_Investor",
-        "sell": 294776306978
+        "sell": 364905101796
       },
       {
-        "buy": 23974148253,
-        "date": "2026-10-01",
+        "buy": 23413007171,
+        "date": "2026-09-30",
         "name": "Investment_Trust",
-        "sell": 18108667909
-      },
-      {
-        "buy": 377279400508,
-        "date": "2026-10-01",
-        "name": "total",
-        "sell": 347817599456
+        "sell": 15122220612
       },
       {
         "buy": 0,
-        "date": "2026-10-01",
+        "date": "2026-09-30",
         "name": "Foreign_Dealer_Self",
         "sell": 0
+      },
+      {
+        "buy": 7572941960,
+        "date": "2026-09-30",
+        "name": "Dealer_self",
+        "sell": 6191730730
+      },
+      {
+        "buy": 25863864479,
+        "date": "2026-09-30",
+        "name": "Dealer_Hedging",
+        "sell": 26004723087
       },
       {
         "buy": 10157175990,
@@ -1131,34 +1115,34 @@
         "sell": 6920019147
       },
       {
+        "buy": 0,
+        "date": "2026-10-01",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
         "buy": 26434440415,
         "date": "2026-10-01",
         "name": "Dealer_Hedging",
         "sell": 28012605422
       },
       {
-        "buy": 10263664691,
-        "date": "2026-10-02",
-        "name": "Dealer_self",
-        "sell": 5522289191
-      },
-      {
-        "buy": 0,
-        "date": "2026-10-02",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
-      },
-      {
-        "buy": 26907747492,
-        "date": "2026-10-02",
-        "name": "Dealer_Hedging",
-        "sell": 29622706562
-      },
-      {
-        "buy": 26795082792,
-        "date": "2026-10-02",
+        "buy": 23974148253,
+        "date": "2026-10-01",
         "name": "Investment_Trust",
-        "sell": 21026271443
+        "sell": 18108667909
+      },
+      {
+        "buy": 316713635850,
+        "date": "2026-10-01",
+        "name": "Foreign_Investor",
+        "sell": 294776306978
+      },
+      {
+        "buy": 377279400508,
+        "date": "2026-10-01",
+        "name": "total",
+        "sell": 347817599456
       },
       {
         "buy": 319746934396,
@@ -1173,10 +1157,46 @@
         "sell": 373296401630
       },
       {
-        "buy": 522064741452,
+        "buy": 26795082792,
+        "date": "2026-10-02",
+        "name": "Investment_Trust",
+        "sell": 21026271443
+      },
+      {
+        "buy": 26907747492,
+        "date": "2026-10-02",
+        "name": "Dealer_Hedging",
+        "sell": 29622706562
+      },
+      {
+        "buy": 0,
+        "date": "2026-10-02",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 10263664691,
+        "date": "2026-10-02",
+        "name": "Dealer_self",
+        "sell": 5522289191
+      },
+      {
+        "buy": 12475210779,
         "date": "2026-10-05",
-        "name": "total",
-        "sell": 444512795697
+        "name": "Dealer_self",
+        "sell": 11059850275
+      },
+      {
+        "buy": 0,
+        "date": "2026-10-05",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 45597858723,
+        "date": "2026-10-05",
+        "name": "Dealer_Hedging",
+        "sell": 36064721710
       },
       {
         "buy": 23300365779,
@@ -1191,40 +1211,16 @@
         "sell": 368794697926
       },
       {
-        "buy": 0,
+        "buy": 522064741452,
         "date": "2026-10-05",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
+        "name": "total",
+        "sell": 444512795697
       },
       {
-        "buy": 12475210779,
-        "date": "2026-10-05",
-        "name": "Dealer_self",
-        "sell": 11059850275
-      },
-      {
-        "buy": 45597858723,
-        "date": "2026-10-05",
-        "name": "Dealer_Hedging",
-        "sell": 36064721710
-      },
-      {
-        "buy": 12155667098,
+        "buy": 427884275826,
         "date": "2026-10-06",
-        "name": "Dealer_self",
-        "sell": 8543703603
-      },
-      {
-        "buy": 0,
-        "date": "2026-10-06",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
-      },
-      {
-        "buy": 29749547024,
-        "date": "2026-10-06",
-        "name": "Dealer_Hedging",
-        "sell": 31640298320
+        "name": "total",
+        "sell": 447085324005
       },
       {
         "buy": 24610502092,
@@ -1239,16 +1235,22 @@
         "sell": 368025901222
       },
       {
-        "buy": 427884275826,
+        "buy": 0,
         "date": "2026-10-06",
-        "name": "total",
-        "sell": 447085324005
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
       },
       {
-        "buy": 330798361443,
-        "date": "2026-10-07",
-        "name": "Foreign_Investor",
-        "sell": 343842247808
+        "buy": 12155667098,
+        "date": "2026-10-06",
+        "name": "Dealer_self",
+        "sell": 8543703603
+      },
+      {
+        "buy": 29749547024,
+        "date": "2026-10-06",
+        "name": "Dealer_Hedging",
+        "sell": 31640298320
       },
       {
         "buy": 8798053626,
@@ -1275,10 +1277,52 @@
         "sell": 25270803488
       },
       {
+        "buy": 330798361443,
+        "date": "2026-10-07",
+        "name": "Foreign_Investor",
+        "sell": 343842247808
+      },
+      {
         "buy": 384831614456,
         "date": "2026-10-07",
         "name": "total",
         "sell": 408995341524
+      },
+      {
+        "buy": 286056136234,
+        "date": "2026-10-08",
+        "name": "Foreign_Investor",
+        "sell": 361908429724
+      },
+      {
+        "buy": 6972303793,
+        "date": "2026-10-08",
+        "name": "Dealer_self",
+        "sell": 9104089748
+      },
+      {
+        "buy": 0,
+        "date": "2026-10-08",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 23310089237,
+        "date": "2026-10-08",
+        "name": "Dealer_Hedging",
+        "sell": 39909564886
+      },
+      {
+        "buy": 24525731364,
+        "date": "2026-10-08",
+        "name": "Investment_Trust",
+        "sell": 21516801351
+      },
+      {
+        "buy": 340864260628,
+        "date": "2026-10-08",
+        "name": "total",
+        "sell": 432438885709
       }
     ],
     "error": null
@@ -1367,6 +1411,15 @@
         "sell": 28214741000
       },
       {
+        "TodayBalance": 9352816,
+        "YesBalance": 9287103,
+        "buy": 441109,
+        "date": "2026-10-01",
+        "name": "MarginPurchase",
+        "Return": 4856,
+        "sell": 370540
+      },
+      {
         "TodayBalance": 233322,
         "YesBalance": 235294,
         "buy": 20853,
@@ -1385,22 +1438,13 @@
         "sell": 31430381000
       },
       {
-        "TodayBalance": 9352816,
-        "YesBalance": 9287103,
-        "buy": 441109,
-        "date": "2026-10-01",
-        "name": "MarginPurchase",
-        "Return": 4856,
-        "sell": 370540
-      },
-      {
-        "TodayBalance": 9398006,
-        "YesBalance": 9352810,
-        "buy": 409572,
+        "TodayBalance": 635104422000,
+        "YesBalance": 629867193000,
+        "buy": 38580336000,
         "date": "2026-10-02",
-        "name": "MarginPurchase",
-        "Return": 4689,
-        "sell": 359687
+        "name": "MarginPurchaseMoney",
+        "Return": 458653000,
+        "sell": 32884454000
       },
       {
         "TodayBalance": 231986,
@@ -1412,13 +1456,13 @@
         "sell": 18798
       },
       {
-        "TodayBalance": 635104422000,
-        "YesBalance": 629867193000,
-        "buy": 38580336000,
+        "TodayBalance": 9398006,
+        "YesBalance": 9352810,
+        "buy": 409572,
         "date": "2026-10-02",
-        "name": "MarginPurchaseMoney",
-        "Return": 458653000,
-        "sell": 32884454000
+        "name": "MarginPurchase",
+        "Return": 4689,
+        "sell": 359687
       },
       {
         "TodayBalance": 9409460,
@@ -1475,15 +1519,6 @@
         "sell": 36698452000
       },
       {
-        "TodayBalance": 215104,
-        "YesBalance": 214529,
-        "buy": 13375,
-        "date": "2026-10-07",
-        "name": "ShortSale",
-        "Return": 2593,
-        "sell": 16543
-      },
-      {
         "TodayBalance": 9358246,
         "YesBalance": 9356795,
         "buy": 373993,
@@ -1493,6 +1528,15 @@
         "sell": 360993
       },
       {
+        "TodayBalance": 215104,
+        "YesBalance": 214529,
+        "buy": 13375,
+        "date": "2026-10-07",
+        "name": "ShortSale",
+        "Return": 2593,
+        "sell": 16543
+      },
+      {
         "TodayBalance": 640000774000,
         "YesBalance": 637657044000,
         "buy": 37421974000,
@@ -1500,6 +1544,33 @@
         "name": "MarginPurchaseMoney",
         "Return": 676760000,
         "sell": 34401484000
+      },
+      {
+        "TodayBalance": 9406720,
+        "YesBalance": 9358244,
+        "buy": 385423,
+        "date": "2026-10-08",
+        "name": "MarginPurchase",
+        "Return": 31506,
+        "sell": 305441
+      },
+      {
+        "TodayBalance": 211949,
+        "YesBalance": 215104,
+        "buy": 17203,
+        "date": "2026-10-08",
+        "name": "ShortSale",
+        "Return": 2629,
+        "sell": 16677
+      },
+      {
+        "TodayBalance": 646405767000,
+        "YesBalance": 640000774000,
+        "buy": 38876700000,
+        "date": "2026-10-08",
+        "name": "MarginPurchaseMoney",
+        "Return": 647267000,
+        "sell": 31824440000
       }
     ],
     "error": null
@@ -1817,6 +1888,45 @@
         "long_open_interest_balance_amount": 135388163,
         "short_open_interest_balance_volume": 92646,
         "short_open_interest_balance_amount": 925985823
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-10-08",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 4907,
+        "long_deal_amount": 48639092,
+        "short_deal_volume": 3088,
+        "short_deal_amount": 30586764,
+        "long_open_interest_balance_volume": 3930,
+        "long_open_interest_balance_amount": 38836937,
+        "short_open_interest_balance_volume": 4464,
+        "short_open_interest_balance_amount": 44110978
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-10-08",
+        "institutional_investors": "投信",
+        "long_deal_volume": 350,
+        "long_deal_amount": 3459281,
+        "short_deal_volume": 279,
+        "short_deal_amount": 2757427,
+        "long_open_interest_balance_volume": 79091,
+        "long_open_interest_balance_amount": 780738897,
+        "short_open_interest_balance_volume": 2752,
+        "short_open_interest_balance_amount": 27166093
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-10-08",
+        "institutional_investors": "外資",
+        "long_deal_volume": 34332,
+        "long_deal_amount": 340199313,
+        "short_deal_volume": 38380,
+        "short_deal_amount": 380348255,
+        "long_open_interest_balance_volume": 11389,
+        "long_open_interest_balance_amount": 112454531,
+        "short_open_interest_balance_volume": 94583,
+        "short_open_interest_balance_amount": 933811861
       }
     ],
     "error": null
@@ -2538,10 +2648,10 @@
       {
         "date": "2026-10-07",
         "open": 775.77002,
-        "high": 779.10211,
+        "high": 779.099976,
         "low": 773.60999,
         "close": 777.21997,
-        "volume": 30746070.0
+        "volume": 30958200.0
       }
     ],
     "error": null,
