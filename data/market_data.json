@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T13:19:47.148338Z",
+  "generated_at": "2026-10-09T01:26:58.462570Z",
   "taiex": {
     "ohlc": [
       {
@@ -1001,42 +1001,6 @@
   "institutional_flow": {
     "raw_last_14d": [
       {
-        "buy": 9882509551,
-        "date": "2026-09-24",
-        "name": "Dealer_self",
-        "sell": 5646973463
-      },
-      {
-        "buy": 0,
-        "date": "2026-09-24",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
-      },
-      {
-        "buy": 23087552661,
-        "date": "2026-09-24",
-        "name": "Dealer_Hedging",
-        "sell": 25984658328
-      },
-      {
-        "buy": 13921313441,
-        "date": "2026-09-24",
-        "name": "Investment_Trust",
-        "sell": 26744576741
-      },
-      {
-        "buy": 272421262886,
-        "date": "2026-09-24",
-        "name": "Foreign_Investor",
-        "sell": 305385876541
-      },
-      {
-        "buy": 319312638539,
-        "date": "2026-09-24",
-        "name": "total",
-        "sell": 363762085073
-      },
-      {
         "buy": 7185151629,
         "date": "2026-09-29",
         "name": "Dealer_self",
@@ -1151,22 +1115,16 @@
         "sell": 317125134434
       },
       {
-        "buy": 383713429371,
-        "date": "2026-10-02",
-        "name": "total",
-        "sell": 373296401630
-      },
-      {
         "buy": 26795082792,
         "date": "2026-10-02",
         "name": "Investment_Trust",
         "sell": 21026271443
       },
       {
-        "buy": 26907747492,
+        "buy": 383713429371,
         "date": "2026-10-02",
-        "name": "Dealer_Hedging",
-        "sell": 29622706562
+        "name": "total",
+        "sell": 373296401630
       },
       {
         "buy": 0,
@@ -1179,6 +1137,12 @@
         "date": "2026-10-02",
         "name": "Dealer_self",
         "sell": 5522289191
+      },
+      {
+        "buy": 26907747492,
+        "date": "2026-10-02",
+        "name": "Dealer_Hedging",
+        "sell": 29622706562
       },
       {
         "buy": 12475210779,
@@ -1330,33 +1294,6 @@
   "margin_balance": {
     "raw_last_14d": [
       {
-        "TodayBalance": 9279712,
-        "YesBalance": 9282262,
-        "buy": 270795,
-        "date": "2026-09-24",
-        "name": "MarginPurchase",
-        "Return": 10711,
-        "sell": 262634
-      },
-      {
-        "TodayBalance": 202008,
-        "YesBalance": 213059,
-        "buy": 19887,
-        "date": "2026-09-24",
-        "name": "ShortSale",
-        "Return": 3351,
-        "sell": 12187
-      },
-      {
-        "TodayBalance": 615103402000,
-        "YesBalance": 606367833000,
-        "buy": 30073340000,
-        "date": "2026-09-24",
-        "name": "MarginPurchaseMoney",
-        "Return": 857972000,
-        "sell": 20479799000
-      },
-      {
         "TodayBalance": 9302602,
         "YesBalance": 9279711,
         "buy": 306067,
@@ -1438,15 +1375,6 @@
         "sell": 31430381000
       },
       {
-        "TodayBalance": 635104422000,
-        "YesBalance": 629867193000,
-        "buy": 38580336000,
-        "date": "2026-10-02",
-        "name": "MarginPurchaseMoney",
-        "Return": 458653000,
-        "sell": 32884454000
-      },
-      {
         "TodayBalance": 231986,
         "YesBalance": 233322,
         "buy": 15674,
@@ -1454,6 +1382,15 @@
         "name": "ShortSale",
         "Return": 4460,
         "sell": 18798
+      },
+      {
+        "TodayBalance": 635104422000,
+        "YesBalance": 629867193000,
+        "buy": 38580336000,
+        "date": "2026-10-02",
+        "name": "MarginPurchaseMoney",
+        "Return": 458653000,
+        "sell": 32884454000
       },
       {
         "TodayBalance": 9398006,
@@ -1546,15 +1483,6 @@
         "sell": 34401484000
       },
       {
-        "TodayBalance": 9406720,
-        "YesBalance": 9358244,
-        "buy": 385423,
-        "date": "2026-10-08",
-        "name": "MarginPurchase",
-        "Return": 31506,
-        "sell": 305441
-      },
-      {
         "TodayBalance": 211949,
         "YesBalance": 215104,
         "buy": 17203,
@@ -1562,6 +1490,15 @@
         "name": "ShortSale",
         "Return": 2629,
         "sell": 16677
+      },
+      {
+        "TodayBalance": 9406720,
+        "YesBalance": 9358244,
+        "buy": 385423,
+        "date": "2026-10-08",
+        "name": "MarginPurchase",
+        "Return": 31506,
+        "sell": 305441
       },
       {
         "TodayBalance": 646405767000,
@@ -1577,45 +1514,6 @@
   },
   "futures_oi": {
     "raw_last_14d": [
-      {
-        "futures_id": "TX",
-        "date": "2026-09-24",
-        "institutional_investors": "自營商",
-        "long_deal_volume": 4020,
-        "long_deal_amount": 38698985,
-        "short_deal_volume": 2570,
-        "short_deal_amount": 24746953,
-        "long_open_interest_balance_volume": 3312,
-        "long_open_interest_balance_amount": 31921475,
-        "short_open_interest_balance_volume": 4832,
-        "short_open_interest_balance_amount": 46534201
-      },
-      {
-        "futures_id": "TX",
-        "date": "2026-09-24",
-        "institutional_investors": "投信",
-        "long_deal_volume": 125,
-        "long_deal_amount": 1203395,
-        "short_deal_volume": 820,
-        "short_deal_amount": 7893777,
-        "long_open_interest_balance_volume": 75780,
-        "long_open_interest_balance_amount": 729382500,
-        "short_open_interest_balance_volume": 2916,
-        "short_open_interest_balance_amount": 28066500
-      },
-      {
-        "futures_id": "TX",
-        "date": "2026-09-24",
-        "institutional_investors": "外資",
-        "long_deal_volume": 36223,
-        "long_deal_amount": 348409564,
-        "short_deal_volume": 37132,
-        "short_deal_amount": 357153247,
-        "long_open_interest_balance_volume": 9675,
-        "long_open_interest_balance_amount": 93125404,
-        "short_open_interest_balance_volume": 86706,
-        "short_open_interest_balance_amount": 834633936
-      },
       {
         "futures_id": "TX",
         "date": "2026-09-29",
@@ -1933,14 +1831,6 @@
   },
   "spx": {
     "ohlc": [
-      {
-        "date": "2026-06-01",
-        "open": 755.35999,
-        "high": 760.28003,
-        "low": 754.69,
-        "close": 758.53998,
-        "volume": 43634900.0
-      },
       {
         "date": "2026-06-02",
         "open": 757.030029,
@@ -2651,7 +2541,15 @@
         "high": 779.099976,
         "low": 773.60999,
         "close": 777.21997,
-        "volume": 30958200.0
+        "volume": 30989200.0
+      },
+      {
+        "date": "2026-10-08",
+        "open": 774.85999,
+        "high": 777.090027,
+        "low": 770.435,
+        "close": 773.92999,
+        "volume": 40070358.0
       }
     ],
     "error": null,
@@ -2660,10 +2558,6 @@
   },
   "vix": {
     "series": [
-      {
-        "date": "2026-06-03",
-        "close": 16.06
-      },
       {
         "date": "2026-06-04",
         "close": 15.4
@@ -3019,19 +2913,23 @@
       {
         "date": "2026-10-06",
         "close": 15.01
+      },
+      {
+        "date": "2026-10-07",
+        "close": 15.08
       }
     ],
     "source": "FRED VIXCLS",
     "error": null
   },
   "fred": {
-    "t10y2y_bps": 51.0,
-    "hy_oas_pct": 3.03,
+    "t10y2y_bps": 47.0,
+    "hy_oas_pct": 3.09,
     "core_pce_yoy_pct": 3.01,
     "error": null,
-    "t10y2y_date": "2026-10-07",
-    "hy_oas_date": "2026-10-06",
-    "hy_oas_5d_change_bps": -5.0,
+    "t10y2y_date": "2026-10-08",
+    "hy_oas_date": "2026-10-07",
+    "hy_oas_5d_change_bps": -3.0,
     "core_pce_date": "2026-08-01"
   }
 }
