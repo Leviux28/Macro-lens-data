@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T00:14:13.291576Z",
+  "generated_at": "2026-10-22T11:42:10.570602Z",
   "taiex": {
     "ohlc": [
       {
@@ -977,6 +977,14 @@
         "low": 46454.33,
         "close": 46887.77,
         "volume": 10565743301.0
+      },
+      {
+        "date": "2026-10-22",
+        "open": 46942.75,
+        "high": 47332.18,
+        "low": 46041.43,
+        "close": 46041.43,
+        "volume": 11999249506.0
       }
     ],
     "source": "TaiwanStockPrice",
@@ -1075,16 +1083,16 @@
         "sell": 24425028119
       },
       {
-        "buy": 0,
-        "date": "2026-10-13",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
-      },
-      {
         "buy": 10923022534,
         "date": "2026-10-13",
         "name": "Dealer_self",
         "sell": 20170053714
+      },
+      {
+        "buy": 0,
+        "date": "2026-10-13",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
       },
       {
         "buy": 44731422797,
@@ -1135,22 +1143,16 @@
         "sell": 681666886727
       },
       {
-        "buy": 522216246526,
-        "date": "2026-10-15",
-        "name": "total",
-        "sell": 891311835855
-      },
-      {
         "buy": 51569996986,
         "date": "2026-10-15",
         "name": "Investment_Trust",
         "sell": 22286717535
       },
       {
-        "buy": 78540814217,
+        "buy": 522216246526,
         "date": "2026-10-15",
-        "name": "Dealer_Hedging",
-        "sell": 165680799627
+        "name": "total",
+        "sell": 891311835855
       },
       {
         "buy": 0,
@@ -1165,28 +1167,10 @@
         "sell": 21677431966
       },
       {
-        "buy": 8381436969,
-        "date": "2026-10-16",
-        "name": "Dealer_self",
-        "sell": 18560032105
-      },
-      {
-        "buy": 0,
-        "date": "2026-10-16",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
-      },
-      {
-        "buy": 28653271647,
-        "date": "2026-10-16",
+        "buy": 78540814217,
+        "date": "2026-10-15",
         "name": "Dealer_Hedging",
-        "sell": 51888684916
-      },
-      {
-        "buy": 43848499145,
-        "date": "2026-10-16",
-        "name": "Investment_Trust",
-        "sell": 32800992175
+        "sell": 165680799627
       },
       {
         "buy": 356324360692,
@@ -1195,16 +1179,52 @@
         "sell": 402471523529
       },
       {
+        "buy": 43848499145,
+        "date": "2026-10-16",
+        "name": "Investment_Trust",
+        "sell": 32800992175
+      },
+      {
         "buy": 437207568453,
         "date": "2026-10-16",
         "name": "total",
         "sell": 505721232725
       },
       {
-        "buy": 368811427907,
+        "buy": 0,
+        "date": "2026-10-16",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 8381436969,
+        "date": "2026-10-16",
+        "name": "Dealer_self",
+        "sell": 18560032105
+      },
+      {
+        "buy": 28653271647,
+        "date": "2026-10-16",
+        "name": "Dealer_Hedging",
+        "sell": 51888684916
+      },
+      {
+        "buy": 9393790718,
         "date": "2026-10-19",
-        "name": "total",
-        "sell": 457675619481
+        "name": "Dealer_self",
+        "sell": 15416680321
+      },
+      {
+        "buy": 0,
+        "date": "2026-10-19",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 32258177704,
+        "date": "2026-10-19",
+        "name": "Dealer_Hedging",
+        "sell": 62498371857
       },
       {
         "buy": 50699118560,
@@ -1219,52 +1239,10 @@
         "sell": 353203076694
       },
       {
-        "buy": 0,
+        "buy": 368811427907,
         "date": "2026-10-19",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
-      },
-      {
-        "buy": 9393790718,
-        "date": "2026-10-19",
-        "name": "Dealer_self",
-        "sell": 15416680321
-      },
-      {
-        "buy": 32258177704,
-        "date": "2026-10-19",
-        "name": "Dealer_Hedging",
-        "sell": 62498371857
-      },
-      {
-        "buy": 6542914327,
-        "date": "2026-10-20",
-        "name": "Dealer_self",
-        "sell": 13397949503
-      },
-      {
-        "buy": 0,
-        "date": "2026-10-20",
-        "name": "Foreign_Dealer_Self",
-        "sell": 0
-      },
-      {
-        "buy": 27529320011,
-        "date": "2026-10-20",
-        "name": "Dealer_Hedging",
-        "sell": 56253589067
-      },
-      {
-        "buy": 34044387977,
-        "date": "2026-10-20",
-        "name": "Investment_Trust",
-        "sell": 15285879547
-      },
-      {
-        "buy": 248675549542,
-        "date": "2026-10-20",
-        "name": "Foreign_Investor",
-        "sell": 328215241938
+        "name": "total",
+        "sell": 457675619481
       },
       {
         "buy": 316792171857,
@@ -1273,10 +1251,34 @@
         "sell": 413152660055
       },
       {
-        "buy": 347069351600,
-        "date": "2026-10-21",
+        "buy": 248675549542,
+        "date": "2026-10-20",
         "name": "Foreign_Investor",
-        "sell": 344830441784
+        "sell": 328215241938
+      },
+      {
+        "buy": 34044387977,
+        "date": "2026-10-20",
+        "name": "Investment_Trust",
+        "sell": 15285879547
+      },
+      {
+        "buy": 0,
+        "date": "2026-10-20",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 6542914327,
+        "date": "2026-10-20",
+        "name": "Dealer_self",
+        "sell": 13397949503
+      },
+      {
+        "buy": 27529320011,
+        "date": "2026-10-20",
+        "name": "Dealer_Hedging",
+        "sell": 56253589067
       },
       {
         "buy": 0,
@@ -1303,10 +1305,52 @@
         "sell": 17600366911
       },
       {
+        "buy": 347069351600,
+        "date": "2026-10-21",
+        "name": "Foreign_Investor",
+        "sell": 344830441784
+      },
+      {
         "buy": 418086486180,
         "date": "2026-10-21",
         "name": "total",
         "sell": 416620742993
+      },
+      {
+        "buy": 0,
+        "date": "2026-10-22",
+        "name": "Foreign_Dealer_Self",
+        "sell": 0
+      },
+      {
+        "buy": 7229694959,
+        "date": "2026-10-22",
+        "name": "Dealer_self",
+        "sell": 10945959717
+      },
+      {
+        "buy": 34943576891,
+        "date": "2026-10-22",
+        "name": "Dealer_Hedging",
+        "sell": 58605397145
+      },
+      {
+        "buy": 24313893541,
+        "date": "2026-10-22",
+        "name": "Investment_Trust",
+        "sell": 15438995399
+      },
+      {
+        "buy": 297550206658,
+        "date": "2026-10-22",
+        "name": "Foreign_Investor",
+        "sell": 379206734448
+      },
+      {
+        "buy": 364037372049,
+        "date": "2026-10-22",
+        "name": "total",
+        "sell": 464197086709
       }
     ],
     "error": null
@@ -1911,6 +1955,45 @@
         "long_open_interest_balance_amount": 88480368,
         "short_open_interest_balance_volume": 95482,
         "short_open_interest_balance_amount": 897846647
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-10-22",
+        "institutional_investors": "自營商",
+        "long_deal_volume": 5489,
+        "long_deal_amount": 51456640,
+        "short_deal_volume": 3924,
+        "short_deal_amount": 36678720,
+        "long_open_interest_balance_volume": 6399,
+        "long_open_interest_balance_amount": 59198573,
+        "short_open_interest_balance_volume": 3139,
+        "short_open_interest_balance_amount": 29067672
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-10-22",
+        "institutional_investors": "投信",
+        "long_deal_volume": 568,
+        "long_deal_amount": 5269535,
+        "short_deal_volume": 745,
+        "short_deal_amount": 6899640,
+        "long_open_interest_balance_volume": 86375,
+        "long_open_interest_balance_amount": 798692350,
+        "short_open_interest_balance_volume": 2774,
+        "short_open_interest_balance_amount": 25650623
+      },
+      {
+        "futures_id": "TX",
+        "date": "2026-10-22",
+        "institutional_investors": "外資",
+        "long_deal_volume": 50162,
+        "long_deal_amount": 471254077,
+        "short_deal_volume": 51383,
+        "short_deal_amount": 482996177,
+        "long_open_interest_balance_volume": 8126,
+        "long_open_interest_balance_amount": 75141187,
+        "short_open_interest_balance_volume": 95423,
+        "short_open_interest_balance_amount": 882431475
       }
     ],
     "error": null
@@ -2632,10 +2715,10 @@
       {
         "date": "2026-10-21",
         "open": 771.16998,
-        "high": 774.42999,
+        "high": 774.44,
         "low": 768.40002,
         "close": 773.090027,
-        "volume": 31623572.0
+        "volume": 31812600.0
       }
     ],
     "error": null,
@@ -2643,14 +2726,379 @@
     "note": "SPY ETF 代理（S&P 500 指數 symbol 於 Twelve Data 無法直接取得，改用 ETF 技術面替代，形態一致）"
   },
   "vix": {
-    "series": [],
+    "series": [
+      {
+        "date": "2026-06-17",
+        "close": 18.44
+      },
+      {
+        "date": "2026-06-18",
+        "close": 16.4
+      },
+      {
+        "date": "2026-06-19",
+        "close": 16.78
+      },
+      {
+        "date": "2026-06-22",
+        "close": 17.28
+      },
+      {
+        "date": "2026-06-23",
+        "close": 19.49
+      },
+      {
+        "date": "2026-06-24",
+        "close": 18.63
+      },
+      {
+        "date": "2026-06-25",
+        "close": 18.89
+      },
+      {
+        "date": "2026-06-26",
+        "close": 18.41
+      },
+      {
+        "date": "2026-06-29",
+        "close": 17.65
+      },
+      {
+        "date": "2026-06-30",
+        "close": 16.45
+      },
+      {
+        "date": "2026-07-01",
+        "close": 16.59
+      },
+      {
+        "date": "2026-07-02",
+        "close": 16.15
+      },
+      {
+        "date": "2026-07-03",
+        "close": 15.81
+      },
+      {
+        "date": "2026-07-06",
+        "close": 15.57
+      },
+      {
+        "date": "2026-07-07",
+        "close": 16.13
+      },
+      {
+        "date": "2026-07-08",
+        "close": 16.9
+      },
+      {
+        "date": "2026-07-09",
+        "close": 15.84
+      },
+      {
+        "date": "2026-07-10",
+        "close": 15.03
+      },
+      {
+        "date": "2026-07-13",
+        "close": 17.16
+      },
+      {
+        "date": "2026-07-14",
+        "close": 16.5
+      },
+      {
+        "date": "2026-07-15",
+        "close": 15.67
+      },
+      {
+        "date": "2026-07-16",
+        "close": 16.73
+      },
+      {
+        "date": "2026-07-17",
+        "close": 18.77
+      },
+      {
+        "date": "2026-07-20",
+        "close": 18.65
+      },
+      {
+        "date": "2026-07-21",
+        "close": 17.05
+      },
+      {
+        "date": "2026-07-22",
+        "close": 16.64
+      },
+      {
+        "date": "2026-07-23",
+        "close": 18.7
+      },
+      {
+        "date": "2026-07-24",
+        "close": 18.58
+      },
+      {
+        "date": "2026-07-27",
+        "close": 18.67
+      },
+      {
+        "date": "2026-07-28",
+        "close": 18.21
+      },
+      {
+        "date": "2026-07-29",
+        "close": 20.66
+      },
+      {
+        "date": "2026-07-30",
+        "close": 17.09
+      },
+      {
+        "date": "2026-07-31",
+        "close": 15.99
+      },
+      {
+        "date": "2026-08-03",
+        "close": 15.86
+      },
+      {
+        "date": "2026-08-04",
+        "close": 16.5
+      },
+      {
+        "date": "2026-08-05",
+        "close": 15.81
+      },
+      {
+        "date": "2026-08-06",
+        "close": 15.15
+      },
+      {
+        "date": "2026-08-07",
+        "close": 14.9
+      },
+      {
+        "date": "2026-08-10",
+        "close": 15.46
+      },
+      {
+        "date": "2026-08-11",
+        "close": 15.28
+      },
+      {
+        "date": "2026-08-12",
+        "close": 14.55
+      },
+      {
+        "date": "2026-08-13",
+        "close": 14.63
+      },
+      {
+        "date": "2026-08-14",
+        "close": 14.25
+      },
+      {
+        "date": "2026-08-17",
+        "close": 15.19
+      },
+      {
+        "date": "2026-08-18",
+        "close": 15.84
+      },
+      {
+        "date": "2026-08-19",
+        "close": 14.89
+      },
+      {
+        "date": "2026-08-20",
+        "close": 16.01
+      },
+      {
+        "date": "2026-08-21",
+        "close": 15.13
+      },
+      {
+        "date": "2026-08-24",
+        "close": 15.85
+      },
+      {
+        "date": "2026-08-25",
+        "close": 15.45
+      },
+      {
+        "date": "2026-08-26",
+        "close": 15.21
+      },
+      {
+        "date": "2026-08-27",
+        "close": 14.51
+      },
+      {
+        "date": "2026-08-28",
+        "close": 14.43
+      },
+      {
+        "date": "2026-08-31",
+        "close": 14.92
+      },
+      {
+        "date": "2026-09-01",
+        "close": 16.34
+      },
+      {
+        "date": "2026-09-02",
+        "close": 15.2
+      },
+      {
+        "date": "2026-09-03",
+        "close": 14.32
+      },
+      {
+        "date": "2026-09-04",
+        "close": 14.53
+      },
+      {
+        "date": "2026-09-07",
+        "close": 15.3
+      },
+      {
+        "date": "2026-09-08",
+        "close": 15.72
+      },
+      {
+        "date": "2026-09-09",
+        "close": 16.46
+      },
+      {
+        "date": "2026-09-10",
+        "close": 17.84
+      },
+      {
+        "date": "2026-09-11",
+        "close": 15.84
+      },
+      {
+        "date": "2026-09-14",
+        "close": 17.1
+      },
+      {
+        "date": "2026-09-15",
+        "close": 17.2
+      },
+      {
+        "date": "2026-09-16",
+        "close": 17.71
+      },
+      {
+        "date": "2026-09-17",
+        "close": 15.44
+      },
+      {
+        "date": "2026-09-18",
+        "close": 14.81
+      },
+      {
+        "date": "2026-09-21",
+        "close": 14.87
+      },
+      {
+        "date": "2026-09-22",
+        "close": 14.21
+      },
+      {
+        "date": "2026-09-23",
+        "close": 15.18
+      },
+      {
+        "date": "2026-09-24",
+        "close": 15.67
+      },
+      {
+        "date": "2026-09-25",
+        "close": 14.87
+      },
+      {
+        "date": "2026-09-28",
+        "close": 16.07
+      },
+      {
+        "date": "2026-09-29",
+        "close": 16.04
+      },
+      {
+        "date": "2026-09-30",
+        "close": 16.34
+      },
+      {
+        "date": "2026-10-01",
+        "close": 16.39
+      },
+      {
+        "date": "2026-10-02",
+        "close": 15.31
+      },
+      {
+        "date": "2026-10-05",
+        "close": 15.52
+      },
+      {
+        "date": "2026-10-06",
+        "close": 15.01
+      },
+      {
+        "date": "2026-10-07",
+        "close": 15.08
+      },
+      {
+        "date": "2026-10-08",
+        "close": 15.41
+      },
+      {
+        "date": "2026-10-09",
+        "close": 14.84
+      },
+      {
+        "date": "2026-10-12",
+        "close": 15.21
+      },
+      {
+        "date": "2026-10-13",
+        "close": 15.27
+      },
+      {
+        "date": "2026-10-14",
+        "close": 16.87
+      },
+      {
+        "date": "2026-10-15",
+        "close": 16.46
+      },
+      {
+        "date": "2026-10-16",
+        "close": 19.99
+      },
+      {
+        "date": "2026-10-19",
+        "close": 18.44
+      },
+      {
+        "date": "2026-10-20",
+        "close": 17.31
+      }
+    ],
     "source": "FRED VIXCLS",
-    "error": "VIXCLS: Expecting value: line 1 column 1 (char 0)"
+    "error": null
   },
   "fred": {
-    "t10y2y_bps": null,
-    "hy_oas_pct": null,
-    "core_pce_yoy_pct": null,
-    "error": "T10Y2Y: Expecting value: line 1 column 1 (char 0); BAMLH0A0HYM2: Expecting value: line 1 column 1 (char 0); PCEPILFE: Expecting value: line 1 column 1 (char 0)"
+    "t10y2y_bps": 32.0,
+    "hy_oas_pct": 3.33,
+    "core_pce_yoy_pct": 3.01,
+    "error": null,
+    "t10y2y_date": "2026-10-21",
+    "hy_oas_date": "2026-10-20",
+    "hy_oas_5d_change_bps": 17.0,
+    "core_pce_date": "2026-08-01"
   }
 }
